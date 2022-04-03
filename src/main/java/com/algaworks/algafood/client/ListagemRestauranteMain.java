@@ -22,7 +22,7 @@ public class ListagemRestauranteMain {
 			
 		} catch (ClientApiException e) {
 			if(e.getProblem() != null) {
-				System.out.println(e.getProblem());
+				//System.out.println(e.getProblem());
 				System.out.println(e.getProblem().getUserMessage());				
 			}else {
 				System.out.println("Erro desconhecido");
